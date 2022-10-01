@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+/* BRAND */
+body{
+    background: rgb(179 179 179);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav ul li{
+    padding: 14px;
+    cursor: pointer;
+}
+.brand img{
+    width: 44px;
+    padding: 0 5px;
+}
+.bar{
+    display: flex;
+    padding-left: 76%;
+    cursor: pointer;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2;
+    padding: 0 18px;
+}
+
+
+
+/* BOTTOM */
+.bottom{
+    height: 96px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    padding-top: 0%
+    cursor: pointer;
+}
+.icon{
+    margin-top: 9px;
+    margin-bottom: -9px;
+}
+.icon i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 124px;
+    margin-top: 19px; 
+    opacity: 1;
+    transition: opacity 0.4s ease-in ;
+}
+.gifMenR{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    right: 1%;
+    margin-top: -2px;
+    opacity: 1;
+    transition: opacity 0.4s ease-in ;
+}
+.gifMenL{
+    position: absolute;
+    left: 1%;
+    margin-top: -2px;
+    opacity: 1;
+    transition: opacity 0.4s ease-in ;
+}
+
+
+/* CONTAINER */
+.container{
+    height: 90vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 24px 198px;
+    border-radius: 22px;
+    padding: 10px 14px;
+    background-image: url('sdmw.jpg');
+}
+.container{
+    background-image: url('sdmw2.jpg');
+    background-size: 100% 100%;
+}
+.songlist{
+    padding: 17px;
+    padding-left: 52%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.songItem{
+    display: flex;
+    background-color: white;
+    height: 6vh;
+    width: 62vh;
+    margin: 12px 0;
+    color: black;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    height: 4vh;
+    margin: 0 12px;
+    border-radius: 34px;
+}
+.timeStamp{
+    padding: 0 25px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
